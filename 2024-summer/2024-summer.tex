@@ -1,0 +1,80 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[top=0.4in,bottom=0.4in,left=0.5in,right=0.5in]{geometry}
+
+\usepackage{charter}
+\usepackage[default]{lato}
+\usepackage[sfdefault]{carlito}
+\usepackage{tgpagella}
+\usepackage{ebgaramond}
+\usepackage[sfdefault]{noto-sans}
+\usepackage[sfdefault]{FiraSans}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{enumitem}
+
+\usepackage[hidelinks]{hyperref}
+
+\usepackage{titlesec}
+
+\raggedright
+\pagestyle{empty}
+
+% format section headings: bolding, size, white space above/below
+\titleformat{\section}{\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule\vspace{-6.5pt}]
+
+% format bullet points: size, white space above/below, white space between bullets
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
+\setlist[itemize]{itemsep=-2pt, leftmargin=12pt}
+
+\begin{document}
+
+\centerline{\Huge Yasha Duncan-Wilson} 
+
+\vspace{5pt}
+
+\centerline{yasha@duncan-wilson.co.uk | github.com/mechanical-girl}
+
+\vspace{-18.5pt}
+
+\section*{Education}
+\textbf{Heriot-Watt University} -- MEng in Aerospace Engineering \hfill 2028 \\
+
+\vspace{-10pt}
+
+\section*{Experience}
+\textbf{Mechanical Engineer} \href{https://www.hwunion.com/societies/cansat/}{Heriot-Watt University CanSat Society} -- Edinburgh \hfill 2023 -- Present \\
+\vspace{-9pt}
+\begin{itemize}
+  \item Complied with challenging mass budget by reducing mass of parts in the flight vehicle through novel manufacturing techniques, leading to a 75\% reduction in mass while meeting strength requirements.
+  \item Adapted aerospace industry standard design patterns for hobbyist scale while meeting stringent power and cost requirements, such that the vehicle survived testing expected to be destructive.
+  \item Performed analyses of competing solutions to complex problems, ultimately choosing designs which were fit for purpose without excessive mass or fragility.
+\end{itemize}
+
+\textbf{Freelance Software Engineer} \href{https://wmcscanner-87d09.web.app}{Waverley Management Consultants Interactive Futures Scanner} -- Edinburgh \hfill 2021 \\
+\vspace{-9pt}
+\begin{itemize}
+  \item Produced interactive Horizon Scanning tool using React.JS and Python
+  \item Designed front-end to match existing design scheme as closely as possible while elegantly integrating interactivity
+  \item Produced back-end software for adapting existing scans to front-end.
+  \item Client shelved project before completion.
+\end{itemize}
+
+\vspace{-18.5pt}
+
+\section*{Projects}
+\textbf{Ender 3 Klipper Conversion} \hfill \href{http://github.com/mechanical-girl/klipper-ender-3}{https://github.com/mechanical-girl/klipper-ender-3} \\
+\vspace{-9pt}
+\begin{itemize}
+	\item Improved poor print success rates: built and fitted an ABL probe to improve first-layer reliability
+	\item Upgraded firmware: wrote and tuned Klipper config to improve print outcomes and user experience
+\end{itemize}
+\section*{Skills}
+\textbf{Programming:} Python, React.JS \\
+\textbf{3D Printer Firmware:} Marlin, Klipper \\
+\textbf{CAD}: Solidworks, Fusion 360 \\
+
+\vspace{-6.5pt}
+
+
+\end{document}

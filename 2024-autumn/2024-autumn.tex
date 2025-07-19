@@ -1,0 +1,83 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[top=0.4in,bottom=0.4in,left=0.5in,right=0.5in]{geometry}
+
+\usepackage{charter}
+\usepackage[default]{lato}
+\usepackage[sfdefault]{carlito}
+\usepackage{tgpagella}
+\usepackage{ebgaramond}
+\usepackage[sfdefault]{noto-sans}
+\usepackage[sfdefault]{FiraSans}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{enumitem}
+
+\usepackage[hidelinks]{hyperref}
+
+\usepackage{titlesec}
+
+\raggedright
+\pagestyle{empty}
+
+% format section headings: bolding, size, white space above/below
+\titleformat{\section}{\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule\vspace{-6.5pt}]
+
+% format bullet points: size, white space above/below, white space between bullets
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
+\setlist[itemize]{itemsep=-2pt, leftmargin=12pt}
+
+\begin{document}
+
+\centerline{\Huge Yasha Duncan-Wilson}
+
+\vspace{5pt}
+
+\centerline{yasha@duncan-wilson.co.uk | github.com/mechanical-girl}
+
+\vspace{-18.5pt}
+
+\section*{Education}
+\textbf{Heriot-Watt University} -- MEng in Aerospace Engineering \hfill 2028 \\
+
+\vspace{-10pt}
+
+\section*{Experience}
+\textbf{Team Lead} \href{https://www.hwunion.com/societies/cansat/}{Heriot-Watt University CanSat Society} -- Edinburgh \hfill 2024 -- Present \\
+\textbf{Mechanical Engineer} \href{https://www.hwunion.com/societies/cansat/}{Heriot-Watt University CanSat Society} -- Edinburgh \hfill 2023 -- 2024 \\
+\vspace{-9pt}
+\begin{itemize}
+	\item Selected and lead a team to compete in the AAS CanSat Competition, managing budget, deadlines and team dynamics as well as engineering requirements.
+	\item Performed analyses of competing solutions to complex problems, ultimately choosing designs which were fit for purpose while meeting mass and material restrictions.
+	\item Adapted aerospace industry design patterns and analytic tools such as FMEA and RCA for use by a small team.
+\end{itemize}
+
+\textbf{Structures Engineer} \href{https://www.aero-watt.com/}{Team Aero0Watt} -- Edinburgh \hfill 2024 -- Present \\
+\begin{itemize}
+	\item Designed and fabricated new light-weight wing structures for autonomous fixed-wing aircraft.
+	\item Proposed novel methods for mass reduction and launch reliability.
+\end{itemize}
+
+\textbf{Summer Intern} \href{https://www.hw.ac.uk/uk/edinburgh/grid.htm}{Heriot-Watt University GRID facility} -- Edinburgh \hfill 2024 \\
+\begin{itemize}
+	\item Designed and implemented solution for reliable automatic 3D printer bed clearing with no intervention.
+	\item Improved throughput by reducing the need for lab technicians to clear prints and reset printers.
+\end{itemize}
+
+\vspace{-18.5pt}
+
+\section*{Projects}
+\textbf{Ender 3 Klipper Conversion} \hfill \href{http://github.com/mechanical-girl/klipper-ender-3}{https://github.com/mechanical-girl/klipper-ender-3} \\
+\vspace{-9pt}
+\begin{itemize}
+	\item Improved poor print success rates: built and fitted an ABL probe to improve first-layer reliability
+	\item Upgraded firmware: wrote and tuned Klipper config to improve print outcomes and user experience
+\end{itemize}
+\section*{Skills}
+\textbf{Programming:} Python \\
+\textbf{3D Printer Firmware:} Marlin, Klipper \\
+\textbf{CAD}: Solidworks, Fusion 360 \\
+
+\vspace{-6.5pt}
+
+\end{document}

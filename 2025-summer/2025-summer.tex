@@ -1,0 +1,57 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[top=0.4in,bottom=0.4in,left=0.5in,right=0.5in]{geometry}
+
+\usepackage{charter}
+\usepackage[default]{lato}
+\usepackage[sfdefault]{carlito}
+\usepackage{tgpagella}
+\usepackage{ebgaramond}
+\usepackage[sfdefault]{noto-sans}
+\usepackage[sfdefault]{FiraSans}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{enumitem}
+
+\usepackage[hidelinks]{hyperref}
+
+\usepackage{titlesec}
+
+\raggedright
+\pagestyle{empty}
+
+% format section headings: bolding, size, white space above/below
+\titleformat{\section}{\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule\vspace{-6.5pt}]
+
+% format bullet points: size, white space above/below, white space between bullets
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
+\setlist[itemize]{itemsep=-2pt, leftmargin=12pt}
+
+\begin{document}
+
+\centerline{\Huge Yasha Duncan-Wilson}
+
+\vspace{5pt}
+
+\centerline{yasha@duncan-wilson.co.uk | 07921 824 693 | github.com/iykdw}
+
+\vspace{8pt}
+\input{summary.tex}
+\vspace{-12pt}
+
+\section*{Skills}
+\input{skills}
+\vspace{-12pt}
+
+\section*{Experience}
+\input{experience.tex}
+\vspace{-12pt}
+
+\section*{Education}
+\textbf{Heriot-Watt University} -- MEng in Aerospace Engineering \hfill 2023-2029 \\
+\vspace{-12pt}
+
+\section*{Projects}
+\input{projects.tex}
+
+\end{document}
